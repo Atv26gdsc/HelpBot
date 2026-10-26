@@ -1,0 +1,196 @@
+[
+  {
+    "id": "q01",
+    "type": "factoid",
+    "question": "What spectral range does the INSAT-3D Imager Visible (VIS) channel cover?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "7",
+    "expected_information": ["0.55 – 0.75", "µm", "1 km resolution"]
+  },
+  {
+    "id": "q02",
+    "type": "factoid",
+    "question": "What is the spatial resolution of the INSAT-3D Imager Water Vapour (WV) channel?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "7",
+    "expected_information": ["8 km", "6.50-7.10 µm"]
+  },
+  {
+    "id": "q03",
+    "type": "factoid",
+    "question": "What file format is used for INSAT-3D data products?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "6",
+    "expected_information": ["HDF5", "Hierarchical Data Format", "KML"]
+  },
+  {
+    "id": "q04",
+    "type": "factoid",
+    "question": "What is the file naming convention for INSAT-3D HDF5 products?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "8",
+    "expected_information": ["SSNNN_DDMMMYYYY_HHmm_LOP_XXX.h5", "SS=Satellite ID", "NNN=Sensor ID"]
+  },
+  {
+    "id": "q05",
+    "type": "factoid",
+    "question": "How many infrared channels does the INSAT-3D Sounder have?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "7",
+    "expected_information": ["18", "7 in LWIR", "5 in MWIR", "6 in SWIR"]
+  },
+  {
+    "id": "q06",
+    "type": "factoid",
+    "question": "What is the acquisition time for a full frame earth disk scan by the INSAT-3D Imager?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "6",
+    "expected_information": ["26 minutes", "48 acquisitions", "half hourly"]
+  },
+  {
+    "id": "q07",
+    "type": "factoid",
+    "question": "What corrections are applied in INSAT-3D Level 1B products?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "7",
+    "expected_information": ["Radiometrically corrected", "Line loss correction", "Failed detector correction", "RAD LUT"]
+  },
+  {
+    "id": "q08",
+    "type": "factoid",
+    "question": "What is the formula for converting INSAT-3D counts to radiance using lab calibration coefficients?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "27",
+    "expected_information": ["lab_radiance_quad", "lab_radiance_scale_factor", "lab_radiance_add_offset", "Count"]
+  },
+  {
+    "id": "q09",
+    "type": "factoid",
+    "question": "At what orbital position is the INSAT-3D spacecraft parked?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "6",
+    "expected_information": ["82° East"]
+  },
+  {
+    "id": "q10",
+    "type": "factoid",
+    "question": "What are the three NWCSAF/GEO cloud property products released for the Indian Ocean region?",
+    "source": "Product_Release_Announcement_NWCSAF.pdf",
+    "page": "1",
+    "expected_information": ["Cloud Type", "Cloud Top Phase", "Convective Rainfall Rate", "CT", "CMIC", "CRR"]
+  },
+  {
+    "id": "q11",
+    "type": "factoid",
+    "question": "What satellite imagery and model are used to generate the NWCSAF/GEO products?",
+    "source": "Product_Release_Announcement_NWCSAF.pdf",
+    "page": "1",
+    "expected_information": ["MSG-9", "SEVIRI", "GFS"]
+  },
+  {
+    "id": "q12",
+    "type": "factoid",
+    "question": "At what time interval are the NWCSAF/GEO cloud products available?",
+    "source": "Product_Release_Announcement_NWCSAF.pdf",
+    "page": "1",
+    "expected_information": ["15-minute", "NetCDF"]
+  },
+  {
+    "id": "q13",
+    "type": "factoid",
+    "question": "What is MOSDAC and when was it established?",
+    "source": "mosdac_vedas_newsletter_oct2025.pdf",
+    "page": "3",
+    "expected_information": ["Meteorological and Oceanographic Satellite Data Archival Centre", "2006", "Space Applications Centre", "SAC", "ISRO"]
+  },
+  {
+    "id": "q14",
+    "type": "factoid",
+    "question": "What does VEDAS stand for and what is its purpose?",
+    "source": "mosdac_vedas_newsletter_oct2025.pdf",
+    "page": "2",
+    "expected_information": ["Visualisation of Earth Observation Data and Archival System", "ISRO", "Earth Observation", "visualisation", "analysis"]
+  },
+  {
+    "id": "q15",
+    "type": "factoid",
+    "question": "How many beaches does the Safe Beach portal cover for rip current warnings?",
+    "source": "mosdac_vedas_newsletter_oct2025.pdf",
+    "page": "8",
+    "expected_information": ["175", "three-day forecast", "rip current"]
+  },
+  {
+    "id": "q16",
+    "type": "factoid",
+    "question": "When was the INSAT-3DS satellite launched and what payloads does it carry?",
+    "source": "mosdac_vedas_newsletter_oct2025.pdf",
+    "page": "16",
+    "expected_information": ["February 17, 2024", "6 Channel imager", "19 Channel sounder", "82° East"]
+  },
+  {
+    "id": "q17",
+    "type": "factoid",
+    "question": "What is the spatial and temporal resolution of MOSDAC's weather forecast information?",
+    "source": "mosdac_vedas_newsletter_oct2025.pdf",
+    "page": "6",
+    "expected_information": ["3 days", "3 hours", "5 X 5 km"]
+  },
+  {
+    "id": "q18",
+    "type": "comparison",
+    "question": "What are the differences between INSAT-3D Imager and Sounder in terms of number of channels and spatial resolution?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "7",
+    "expected_information": ["Imager", "6 channels", "1 km", "4 km", "8 km", "Sounder", "19 channels", "10 km"]
+  },
+  {
+    "id": "q19",
+    "type": "comparison",
+    "question": "How do Level 1B and Level 1C INSAT-3D products differ in terms of corrections applied?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "7",
+    "expected_information": ["Level 1B", "Radiometrically corrected", "Level 1C", "Radiometric", "Geometric correction", "Geo-referenced"]
+  },
+  {
+    "id": "q20",
+    "type": "multi-document",
+    "question": "What satellites does MOSDAC disseminate data from, and what specific data format does INSAT-3D use?",
+    "source": "multiple",
+    "expected_information": ["EOS-06", "EOS-07", "INSAT-3D", "INSAT-3DR", "INSAT-3DS", "KALPANA-1", "HDF5"]
+  },
+  {
+    "id": "q21",
+    "type": "multi-document",
+    "question": "How can NWCSAF products be accessed and visualized through MOSDAC?",
+    "source": "multiple",
+    "expected_information": ["UOPS", "User order processing", "Gallery", "LIVE", "NetCDF", "mosdac.gov.in"]
+  },
+  {
+    "id": "q22",
+    "type": "factoid",
+    "question": "What geophysical parameters are available as L2B Imager products from INSAT-3D?",
+    "source": "INSAT3D_Data_Products_Format.pdf",
+    "page": "8",
+    "expected_information": ["Outgoing Longwave Radiation", "OLR", "Precipitation", "Cloud Mask", "Sea Surface Temperature", "Upper Troposphere Humidity"]
+  },
+  {
+    "id": "q23",
+    "type": "factoid",
+    "question": "What is the Cloud Top Phase (CMIC) product and what does it identify?",
+    "source": "Product_Release_Announcement_NWCSAF.pdf",
+    "page": "4",
+    "expected_information": ["phase of cloud tops", "liquid", "ice", "mixed-phase", "cloud microphysics", "precipitation potential"]
+  },
+  {
+    "id": "q24",
+    "type": "out-of-scope",
+    "question": "What is the current temperature in Mumbai today?",
+    "expected_information": []
+  },
+  {
+    "id": "q25",
+    "type": "out-of-scope",
+    "question": "How do I install Python on Windows?",
+    "expected_information": []
+  }
+]
